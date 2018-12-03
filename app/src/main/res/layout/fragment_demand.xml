@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khanmaruf.diucomlainbox.DemandFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="23dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Demand Request"/>
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+
+                <Spinner
+                    android:id="@+id/forCampusD"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"></Spinner>
+
+
+                <Spinner
+                    android:id="@+id/forBuildingD"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    ></Spinner>
+
+
+                <EditText
+
+                    android:id="@+id/etPlaceDemand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Place"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+                <EditText
+                    android:id="@+id/etYourDemand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Your Demand"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+
+                <EditText
+
+                    android:id="@+id/etDetailsDemand"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Detail About Your Demand"/>
+
+                <Button
+                    android:id="@+id/submit_demand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

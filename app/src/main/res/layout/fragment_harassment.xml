@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khanmaruf.diucomlainbox.harassmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="23dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Harassment Complain"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+
+                <Spinner
+                    android:id="@+id/spinnerCampusH"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"></Spinner>
+
+
+                <Spinner
+                    android:id="@+id/spinnerBuildingH"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    ></Spinner>
+
+
+                <EditText
+
+                    android:id="@+id/etHarassmentPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Place"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+                <EditText
+
+                    android:id="@+id/EtAgnstWhomH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Against Whome"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+                <EditText
+                    android:id="@+id/etHarassmentType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Harasment Type"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+                <ImageView
+
+                    android:id="@+id/ivImageH"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/camera"/>
+
+
+                <Button
+
+                    android:id="@+id/btn_choose_imageH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Take Picture"
+                    android:background="@android:color/holo_purple"/>
+
+                <EditText
+                    android:id="@+id/etHarassmentDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Detail About This Haragement"/>
+
+                <Button
+                    android:id="@+id/submtButtnH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

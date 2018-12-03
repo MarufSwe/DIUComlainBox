@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DIU Comlain Box</string>
+
+    <string name="name">com.example.khanmaruf.diucomlainbox.name</string>
+    <string name="password">com.example.khanmaruf.diucomlainbox.password</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_equipment">EquipmentActivity</string>
+
+    <string-array name="Choose_Your_Campus">
+        <item>Choose Your Campus</item>
+        <item>Main</item>
+        <item>Permanent</item>
+        <item>Uttora</item>
+
+    </string-array>
+
+
+    <string-array name="Choose_Your_Building">
+        <item>Choose your Building</item>
+    </string-array>
+
+    <string-array name="Choose_Your_Building_main">
+        <item>AB Building</item>
+        <item>MB Building</item>
+        <item>DTI 5</item>
+
+    </string-array>
+
+    <string-array name="Choose_Your_Building_permanent">
+        <item>Academic Building</item>
+        <item>Auditorum</item>
+        <item>DTI 12</item>
+    </string-array>
+
+    <string-array name="Choose_Your_Building_uttora">
+        <item>Dt-11 Building</item>
+        <item>BBA Building</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

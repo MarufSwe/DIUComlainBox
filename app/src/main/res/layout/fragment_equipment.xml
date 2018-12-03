@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khanmaruf.diucomlainbox.EquipmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="23dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Equipment Complain"/>
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+
+                <Spinner
+                    android:id="@+id/spinnerCampusE"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"></Spinner>
+
+
+                <Spinner
+                    android:id="@+id/spinnerBuildingE"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    ></Spinner>
+
+
+                <EditText
+                    android:id="@+id/tbPlaceEq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Place"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+                <EditText
+                    android:id="@+id/tbEquipmentId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Equipment ID"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+
+
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/camera"/>
+
+
+                <Button
+                    android:id="@+id/cameraButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Take Picture"
+                    android:background="@android:color/holo_purple"/>
+
+                <EditText
+                    android:id="@+id/editTextEquipmentDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Detail About Equipment"/>
+
+                <Button
+                    android:id="@+id/submit_equipment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
